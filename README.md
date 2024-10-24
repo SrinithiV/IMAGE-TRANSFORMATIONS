@@ -1,6 +1,4 @@
 # IMAGE-TRANSFORMATIONS
-
-
 ## Aim
 To perform image transformation such as Translation, Scaling, Shearing, Reflection, Rotation and Cropping using OpenCV and Python.
 
@@ -9,98 +7,59 @@ Anaconda - Python 3.7
 
 ## Algorithm:
 ### Step1:
-<br>
+Import necessary libraries such as OpenCV, NumPy, and Matplotlib for image processing and visualization.
 
 ### Step2:
-<br>
+Read the input image using cv2.imread() and store it in a variable for further processing.
 
 ### Step3:
-<br>
+Apply various transformations like translation, scaling, shearing, reflection, rotation, and cropping by defining corresponding functions:
+
+Translation moves the image along the x or y-axis.
+
+Scaling resizes the image by scaling factors.
+
+Shearing distorts the image along one axis.
+
+Reflection flips the image horizontally or vertically.
+
+Rotation rotates the image by a given angle.
 
 ### Step4:
-<br>
+Display the transformed images using Matplotlib for visualization. Convert the BGR image to RGB format to ensure proper color representation.
 
 ### Step5:
-<br>
+Save or display the final transformed images for analysis and use plt.show() to display them inline in Jupyter or compatible environments.
 
 ## Program:
-```python
-Developed By:
-Register Number:
-i)Image Translation
-
-
-ii) Image Scaling
-
-
-
-iii)Image shearing
-
-
-
-iv)Image Reflection
-
-
-
-
-v)Image Rotation
-
-
-
-
-vi)Image Cropping
-
-
-
-
-
+### Developed By: SRINITHI V
+### Register Number: 212222110046
+```py
 ```
-## Output:
+### Output:
 ### i)Image Translation
-<br>
-<br>
-<br>
-<br>
-
+```py
+```
+### Output:
 ### ii) Image Scaling
-<br>
-<br>
-<br>
-<br>
-
-
+```py
+```
+### Output:
 ### iii)Image shearing
-<br>
-<br>
-<br>
-<br>
-
-
+```py
+```
+### Output:
 ### iv)Image Reflection
-<br>
-<br>
-<br>
-<br>
-
-
-
+```py
+```
+### Output:
 ### v)Image Rotation
-<br>
-<br>
-<br>
-<br>
-
-
-
+```py
+```
+### Output:
 ### vi)Image Cropping
-<br>
-<br>
-<br>
-<br>
-
-
-
-
+```py
+```
+### Output:
 ## Result: 
-
 Thus the different image transformations such as Translation, Scaling, Shearing, Reflection, Rotation and Cropping are done using OpenCV and python programming.
